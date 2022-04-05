@@ -32,9 +32,8 @@ void main(void)
 {
 	Vector<int> v;
 	v.Push(23); v.Push(23); v.Push(16); v.Push(29);
-	v.Remove(29);
-	v.Insert(3, 56);
-	
+	v.Insert(4, 56);
+	//v.Remove(29);
 	//sort(v.begin(), v.end());
 	cout << v.Pop();
 }
